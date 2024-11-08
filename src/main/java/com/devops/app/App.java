@@ -6,6 +6,6 @@ package com.devops.app;
 public class App {
     public static void main(String[] args) {
         String environment = System.getProperty("env", "default");
-        System.out.println("Running in " + environment + " environment");
+        System.out.println("Running in " + environment + " environment!!!");
     }
 }
